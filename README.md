@@ -5,3 +5,5 @@ Site construido usando HTML e CSS
     - Flexbox ou Grid
     - Responsividade
     - HTML descritivo
+    
+- Mobile: 390px x 920px
