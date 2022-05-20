@@ -1,26 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<!-- screen
-    alinhar header ()
-    alinhar card grande (x)
-    alinhar card pequeno (x)
-    alinha footer ()
-    colocar bold no titulo (x)
--->
-<!-- mobile -->
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" media="(min-width: 400px)" href="./mobile.css"> -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet"  href="./style.css">
+    <link rel="stylesheet" media="(max-width: 600px)" href="./mobile.css">
     <link rel="icon" href="../assets/logo.png">
     <title>Ice Cream Shop</title>
 </head>
 <body>
-    <!-- ver x do chrome -->
     <header>
         <div class="logo">
             <img src="../assets/logo.png" alt="Imagem do logotipo da Ice Cream Shop">
@@ -37,13 +27,14 @@
                     <img src="../assets/tablito.svg" alt="Imagem do picolé Tablico, da marca Kibon">
                     <h1>Picolé Tablito</h1>
                     <p>Picolé de chocolate tradicional <br>e banco 106g (R$ 0,05/g)</p>
-                    <p>R$ 5,00</p>
+                    <div class="value">
+                        <p>R$ 5,00</p>
+                    </div>
                 </div>
                 <div class="card2">
                     <div class="smallCard">
                         <img src="../assets/brigadeiro.svg" alt="Imagem do picolé sabor brigadeiro, da marca Kibon">
                     </div>
-                    <br>
                     <div class="smallCard">
                         <img src="../assets/kolorix.svg" alt="Imagem do picolé Kolorix, da marca Kibon">
                     </div>
@@ -54,13 +45,14 @@
                     <img src="../assets/chicabon.svg" alt="Imagem do picolé Chica Bon, da marca Kibon">
                     <h1>Chica Bon</h1>
                     <p>Picolé de chocolate tradicional 53g (R$ 0,05/g)</p>
-                    <p>R$ 3,50</p>
+                    <div class="value">
+                        <p>R$ 3,50</p>  
+                    </div>
                 </div>
                 <div class="card2">
                     <div class="smallCard">
                         <img src="../assets/morango.svg" alt="Imagem do picolé sabor morango, da marca Kibon">
                     </div>
-                    <br>
                     <div class="smallCard">
                         <img src="../assets/minion.svg" alt="Imagem do picolé Minions, da marca Kibon">
                     </div>
@@ -73,7 +65,7 @@
             <div class="icon">
                 <img src="../assets/linkedin.svg" alt="Icone do Linkedin">
             </div>
-            <div class="icon">
+            <div class="icon" id="facebook">
                 <img src="../assets/facebook.svg" alt="Icone do Facebook">
             </div>
             <div class="icon">
