@@ -32,6 +32,11 @@ footer{
     background-color: #F2F2F2;
 }
 
+.logo{
+    position: relative;
+    right: 10%;
+}
+
 .logo img{
     width: 70px;
     height: 69.42px;
@@ -45,6 +50,9 @@ footer{
     align-items: center;
     justify-content: center;
 
+    position: relative;
+    left: 13%;
+
     border: 0.33px rgba(60, 60, 60, 0.3);
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 1);
@@ -52,6 +60,21 @@ footer{
 
 .searchField input{
     display: none;
+}
+
+.searchField:hover input{
+    width: 48vw;
+    height: 4vh;
+
+    display: block;
+    position: relative;
+    right: 18vw;
+
+    background: #FFFF;
+    border: 0.3px rgba(60, 60, 60, 0.3) solid;
+    border-radius: 6px;
+
+    padding-left: 20%;
 }
 
 #container{
